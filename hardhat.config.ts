@@ -28,11 +28,10 @@ const config: HardhatUserConfig = {
       chainId: 31337,
       allowUnlimitedContractSize: true,
     },
-   
-    // goerli: {
-    // url: "https://eth-goerli.g.alchemy.com/v2/Lrc9TSzeKkYBsFS-iVfXtEmaLtQgfrkU",
-    // accounts: ["account private key.."]
-    // },
+    sepolia: {
+    url: "https://sepolia.infura.io/v3/36fc6c16737c477b9393a241b3060001",
+    accounts: [""]
+    },
   },
   paths: {
     sources: "./contracts",

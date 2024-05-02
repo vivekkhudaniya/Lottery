@@ -15,4 +15,4 @@ deploy your contract:
 ```sh
 $ npx hardhat run scripts/deploy.ts --network localhost
 ```
-
+//yarn hardhat run scripts/deploy.js --network rinkeby

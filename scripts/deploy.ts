@@ -24,7 +24,7 @@ async function main() {
   );
 
   console.log("Account balance:", (await deployer.getBalance()).toString());
-
+  
   const Lottery: ContractFactory = await ethers.getContractFactory("Lottery");
   const lottery: Lottery = (await Lottery.deploy()) as Lottery;
   await lottery.deployed();
